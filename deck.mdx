@@ -2,10 +2,12 @@ import myTheme from './theme';
 import Container from './components/Container.js';
 import { OldLogo, NewLogo, NewLogoSquare } from './components/Logo.js';
 import { Github, Instagram, Website } from './components/Images.js';
+import ogImage from './assets/og-image.png';
 
 export const theme = myTheme;
 
 <Head>
+  <meta name="og:image" content={ogImage} />
   <title>Perkenalan RPL Skandakra Dev</title>
   <link rel="icon" href="https://rpl-skandakra.vercel.app/logo.png" />
 </Head>
