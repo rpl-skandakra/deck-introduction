@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 1440px;
+  text-align: center;
+  border: 20px solid #3ddc84;
+}

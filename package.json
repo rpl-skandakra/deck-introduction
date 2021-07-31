@@ -1,7 +1,7 @@
 {
   "name": "introduction-rpl-skandakra-dev",
+  "description": "Deck for presentation about RPL Skandakara Dev Introduction - Meetup #1",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "mdx-deck deck.mdx",
