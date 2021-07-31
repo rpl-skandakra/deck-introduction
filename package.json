@@ -5,12 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d public"
+    "build": "mdx-deck build deck.mdx"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
     "mdx-deck": "^4.1.1"
   }
 }
